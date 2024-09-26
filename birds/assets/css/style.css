@@ -1,0 +1,173 @@
+/* Style for the top navigation bar */
+.topnav {
+    text-size-adjust: 50px;
+    background-color: #6892b764; /* Dark background color */
+    overflow: hidden; /* Ensure the contents fit within the container */
+    border: 3px  solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.topnav ul {
+    list-style-type: none; /* Remove bullets from the list */
+    margin: 10px;
+    padding: 10px;
+    text-align: center; /* Center-align the navigation items */
+}
+
+.topnav ul li {
+    display: inline; /* Display list items inline */
+}
+
+.topnav ul li a {
+    float:left
+    display: inline-block; /* Make links display inline-block */
+    color: rgb(255, 255, 255); /* White text color */
+    text-align: center;
+    padding: 14px 20px; /* Add padding */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+    border: 3px  solid dark blue;
+}
+
+.topnav ul li a:hover {
+    background-color: rgba(44, 44, 110, 0.767); /* Darker background on hover */
+    color: #e0dfdf; /* Light text color on hover */
+}
+
+.topnav ul li a.active {
+    background-color:rgb(112, 103, 90); /* Highlight active link */
+    color: rgb(0, 0, 0); /* Text color for active link */
+}
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(6, 89, 222, 0.341);
+}
+
+header {
+    background-color: #8ba8b9;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+header img {
+    
+}
+main {
+    padding: 1em;
+}
+
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+footer {
+    background-color: #57674f;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:20px;
+    width: 100%;
+    bottom: 5px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+h2{
+    
+    text-align: ;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate ;
+}
+@keyframes slidein{
+from{
+    translate:150vw 0;
+    scale: 200% 1;
+}
+
+
+to{
+     translate:0 0 0;
+     scale: 100% ;
+}
+}
+
+
+p {
+    text-align: center;
+    background-color: rgba(144, 238, 166, 0.467);
+}
+h4 {
+    text-align: center;
+    text-decoration-color: aliceblue;
+    background-color: rgba(132, 225, 141, 0.61);
+}
+h3 {
+    text-align: center;
+    background-color: rgba(109, 198, 124, 0.878);
+}
+h1{
+    text-align: ;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate ;
+}
+@keyframes slidein{
+from{
+    translate:150vw 0;
+    scale: 200% 1;
+}
+
+
+to{
+     translate:0 0 0;
+     scale: 100% ;
+}
+}
